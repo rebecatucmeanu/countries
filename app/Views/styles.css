@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    transition: background-image 0.5s;
+}
+#sidebar {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+#content {
+    padding: 20px;
+}
+.country-link {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+.country-link:hover {
+    background-color: #e2e6ea;
+}
+.selected-country {
+    background-color: #007bff;
+    color: #fff;
+}

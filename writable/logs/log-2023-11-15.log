@@ -1,0 +1,54 @@
+CRITICAL - 2023-11-15 08:29:14 --> Invalid file: "templates/head.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/head.php')
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('templates/head', [], true)
+ 3 APPPATH/Controllers/Vehiculos.php(13): view('templates/head', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Vehiculos->coches()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehiculos))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 08:29:24 --> Invalid file: "templates/head.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/head.php')
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('templates/head', [], true)
+ 3 APPPATH/Controllers/Vehiculos.php(13): view('templates/head', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Vehiculos->coches()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehiculos))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 08:29:26 --> Invalid file: "templates/head.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/head.php')
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('templates/head', [], true)
+ 3 APPPATH/Controllers/Vehiculos.php(13): view('templates/head', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Vehiculos->coches()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehiculos))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 08:32:55 --> Invalid file: "content/coches.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('content/coches.php')
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('content/coches', [], true)
+ 3 APPPATH/Controllers/Vehiculos.php(14): view('content/coches')
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Vehiculos->coches()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehiculos))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 08:34:18 --> Invalid file: "header.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('header', [], true)
+ 3 APPPATH/Controllers/Vehiculos.php(13): view('header', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Vehiculos->coches()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehiculos))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 08:35:10 --> Invalid file: "template/footer.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/footer.php')
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('template/footer', [], true)
+ 3 APPPATH/Controllers/Vehiculos.php(16): view('template/footer')
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Vehiculos->coches()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehiculos))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,20 @@
+CRITICAL - 2023-11-23 13:15:57 --> Invalid file: "countries/header.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('countries/header.php')
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('countries/header', [], true)
+ 3 APPPATH/Controllers/Countries.php(10): view('countries/header')
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Countries->index()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Countries))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-23 13:17:12 --> Undefined variable $selectedCountry
+in APPPATH/Views/templates/index.php on line 3.
+ 1 APPPATH/Views/templates/index.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedCountry', '/Applications/MAMP/htdocs/countries/app/Views/templates/index.php', 3)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/MAMP/htdocs/countries/app/Views/templates/index.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('templates/index', [], true)
+ 5 APPPATH/Controllers/Countries.php(10): view('templates/index')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Countries->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Countries))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
