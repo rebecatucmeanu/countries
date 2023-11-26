@@ -7,6 +7,14 @@
         <ul class="list-unstyled">
             <li><a href="#" onclick="showCountry('Spain')">Spain</a></li>
             <li><a href="#" onclick="showCountry('France')">France</a></li>
+            <li><a href="#" onclick="showCountry('Germany')">Germany</a></li>
+            <li><a href="#" onclick="showCountry('Italy')">Italy</a></li>
+            <li><a href="#" onclick="showCountry('United Kingdom')">United Kingdom</a></li>
+            <li><a href="#" onclick="showCountry('Portugal')">Portugal</a></li>
+            <li><a href="#" onclick="showCountry('Netherlands')">Netherlands</a></li>
+            <li><a href="#" onclick="showCountry('Sweeden')">Sweeden</a></li>
+            <li><a href="#" onclick="showCountry('Switzerland')">Switzerland</a></li>
+            <li><a href="#" onclick="showCountry('Norway')">Norway</a></li>
         </ul>
     </nav>
     <div id="content">
