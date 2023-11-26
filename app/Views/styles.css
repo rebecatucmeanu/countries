@@ -16,6 +16,11 @@
     padding: 20px;
 }
 
+#country-info img {
+    width: 75%;
+    height: auto;
+}
+
 @media (max-width: 768px) {
     #sidebar {
         display: none;
@@ -24,4 +29,48 @@
     #content {
         width: 100%;
     }
+}
+
+#country-info {
+    background-color: #FFFFFF; 
+}
+
+#country-info.Spain {
+    background-color: #FFD700;
+}
+
+#country-info.France {
+    background-color: #0055A4; 
+}
+
+#country-info.Germany {
+    background-color: #000000;
+}
+
+#country-info.Italy {
+    background-color: #008C45; 
+}
+
+#country-info.UnitedKingdom {
+    background-color: #00247D; 
+}
+
+#country-info.Portugal {
+    background-color: #289D61; 
+}
+
+#country-info.Netherlands {
+    background-color: #AE1C28;
+}
+
+#country-info.Sweden {
+    background-color: #006AA7; 
+}
+
+#country-info.Switzerland {
+    background-color: #FFD700;
+}
+
+#country-info.Norway {
+    background-color: #EF3340; 
 }
