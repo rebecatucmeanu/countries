@@ -12,7 +12,7 @@
             <li><a href="#" onclick="showCountry('United Kingdom')">United Kingdom</a></li>
             <li><a href="#" onclick="showCountry('Portugal')">Portugal</a></li>
             <li><a href="#" onclick="showCountry('Netherlands')">Netherlands</a></li>
-            <li><a href="#" onclick="showCountry('Sweeden')">Sweeden</a></li>
+            <li><a href="#" onclick="showCountry('Sweden')">Sweden</a></li>
             <li><a href="#" onclick="showCountry('Switzerland')">Switzerland</a></li>
             <li><a href="#" onclick="showCountry('Norway')">Norway</a></li>
         </ul>
