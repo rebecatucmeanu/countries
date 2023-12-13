@@ -7,7 +7,8 @@ use CodeIgniter\Controller;
 class Countries extends BaseController
 {
     public function index() {
-        return view('templates/header').view('templates/index').view('templates/Home').view('templates/footer');
+        $data ['selected'] = 'Home';
+        return view('templates/header', $data).view('templates/index').view('templates/Home').view('templates/footer');
     }
 
     public function showCountry1() { 
